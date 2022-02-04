@@ -22,7 +22,6 @@ token = os.environ.get('GITHUB_TOKEN')
 repo_name = [os.environ.get('GITHUB_REPO1'), os.environ.get('GITHUB_REPO2')]
 link = os.environ.get('GITHUB_LINK')
 bucket_name = os.environ.get('S3_BUCKET_UPLOAD')
-bundle_dir = os.environ.get('BUNDLE_DIR')
 timestr = time.strftime("%Y_%m_%d-%H_%M")
 
 
