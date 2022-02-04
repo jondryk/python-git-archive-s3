@@ -1,4 +1,4 @@
-# Python3 functions that clones git repository(repositories) and archives it on S3 Bucket
+# Python3 function that clones git repository(repositories) and archives it on S3 Bucket
 
 ### Lambda configuration
 Add layer with installed git, so function can work with git commands:
